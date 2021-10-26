@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,700;0,800;1,400&display=swap');
+
+* {
+    background: #17191C;
+    color: #fff;
+    font-family: 'Open Sans', Arial, Helvetica, sans-serif;
+    line-height: 1.42;
+}
+
+.container {
+    margin: 0 auto;
+    width: 1150px;
+}
+
+.header {
+    position: relative;
+    height: 129px;
+}
+
+.header .small-logo {
+    width: 198px;
+    height: 46px;
+    display: block;
+    position: absolute;
+    top: 21px;
+    left: 44px;
+}
+
+.header .navigation {
+    position: absolute;
+    top: 34px;
+    left: 483px;
+}
+
+.navigation__item {
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 50px;
+}
+
+.navigation__item:last-child {
+    padding: 0;
+}
+
+.navigation__link {
+    font-size: 14px;
+    color: #fff;
+}
+
+.navigation__link:hover {
+    color: #FF3D00;
+}
+
+.header .contacts {
+    position: absolute;
+    top: 23px;
+    right: -34px;
+    font-style: normal;
+    text-align: right;
+}
+
+.header .contacts .contacts__phone {
+    text-decoration: none;
+    font-size: 26px;
+    margin-bottom: 5px;
+}
+
+.header .contacts .contacts__workhours {
+    position: absolute;
+    right: 0;
+    top: 30px;
+    font-size: 13px;
+    text-decoration: underline;
+}
