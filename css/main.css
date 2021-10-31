@@ -72,3 +72,53 @@
     font-size: 13px;
     text-decoration: underline;
 }
+
+.welcome {
+    display: block;
+    position: absolute;
+    top: 229px;
+    left: 572px;
+    width: 776px;
+    height: 338px;
+}
+
+.welcome__title {
+    text-align: center;
+    margin-bottom: 12px;
+}
+
+.main-title {
+    position: absolute;
+    font-weight: 800;
+    font-size: 72px;
+    text-transform: uppercase;
+}
+
+.welcome__description {
+    position: absolute;
+    top: 217px;
+    left: 192px;
+    font-size: 18px;
+    font-weight: normal;
+    text-align: center;
+}
+
+.button {
+    background: #FF5500;
+    border-radius: 35px;
+    padding: 18px 54px;
+    color: #fff;
+    font-size: 14px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.button:hover {
+    background: #FF3D00;
+}
+
+.welcome__button {
+    position: absolute;
+    top: 282px;
+    left: 291px;
+}
