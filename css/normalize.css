@@ -22,3 +22,7 @@ a {
     text-decoration: none;
     background-color: transparent;
 }
+
+nav {
+    max-width: 270px;
+}
