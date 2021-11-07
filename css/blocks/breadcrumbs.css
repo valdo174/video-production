@@ -1,0 +1,29 @@
+.breadcrumbs {
+    display: flex;
+    margin: 45px 0px 30px 0px;
+}
+
+.breadcrumbs__list {
+    display: flex;
+    list-style-type: none;
+    padding: 0;
+}
+
+.breadcrumbs__link {
+    font-weight: normal;
+    font-size: 14px;
+    text-decoration-line: underline;
+    color: #9A9A9A;
+}
+
+.breadcrumbs__link_active {
+    font-weight: bold;
+    font-size: 14px;
+    text-decoration-line: underline;
+    color: #9A9A9A;
+}
+
+.breadcrumbs__separator {
+    margin: 0px 5px;
+    color: #9A9A9A;
+}

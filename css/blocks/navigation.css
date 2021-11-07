@@ -1,0 +1,30 @@
+.navigation__list {
+    display: inline-block;
+    list-style-type: none;
+}
+
+.navigation__item {
+    display: inline-block;
+    margin-right: 53px;
+    font-size: 14px;
+}
+
+.navigation__item:last-child {
+    margin-right: 0px;
+}
+
+.navigation__link {
+    font-style: normal;
+    font-weight: normal;
+    color: #fff;
+    text-decoration: none;
+}
+
+.navigation__link:hover {
+    color: #FF3D00;
+}
+
+.navigation__link_active {
+    text-decoration: none;
+    color: #FF3D00;
+}

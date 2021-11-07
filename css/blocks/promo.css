@@ -1,0 +1,26 @@
+.promo {
+    display: flex;
+    flex-direction: column;
+    padding: 89px 0px 233px 0px;
+}
+
+.promo__title {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 72px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    margin: 0;
+    padding-bottom: 2px;
+}
+
+.promo__subtitle {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    color: #FFFFFF;
+    text-align: center;
+    padding-top: 12px;
+    padding-left: 2px;
+    padding-bottom: 40px;
+}

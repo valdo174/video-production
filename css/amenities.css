@@ -1,0 +1,41 @@
+@import url(./blocks/global.css);
+@import url(./blocks/fonts.css);
+@import url(./blocks/header.css);
+@import url(./blocks/logo.css);
+@import url(./blocks/navigation.css);
+@import url(./blocks/contacts.css);
+@import url(./blocks/promo.css);
+@import url(./blocks/buttons.css);
+@import url(./blocks/breadcrumbs.css);
+@import url(./blocks/proposals.css);
+@import url(./blocks/pagination.css);
+@import url(./blocks/partners.css);
+@import url(./blocks/footer.css);
+
+.wrapper  {
+    height: 100%;
+}
+
+.header__container {
+    background: url(/images/top-line.png) top center no-repeat;
+    background-size: cover;
+    height: 416px;
+}
+
+.header__wrapper {
+    padding-top: 26px;
+}
+
+.proposals__list {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.proposals__item{ 
+    padding-top: 94px;
+}
+
+.partners {
+    padding-bottom: 120px;
+}
