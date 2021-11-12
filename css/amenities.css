@@ -23,19 +23,37 @@
 }
 
 .header__wrapper {
-    padding-top: 26px;
+    margin-top: 23px;
+    margin-left: 37px;
+    margin-bottom: 119px;
+}
+
+.promo__wrapper {
+    margin-bottom: 84px;
 }
 
 .proposals__list {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    margin-bottom: 57px;
+    margin-top: 122px;
 }
 
-.proposals__item{ 
-    padding-top: 94px;
+.proposals__item {
+    margin-bottom: 94px;
+}
+
+.proposals__item:last-child {
+    margin-bottom: 0px;
 }
 
 .partners {
-    padding-bottom: 120px;
+    margin-bottom: 120px;
+}
+
+.footer__wrapper {
+    margin-top: 23px;
+    margin-left: 37px;
+    margin-bottom: 40px;
 }

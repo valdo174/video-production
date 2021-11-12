@@ -1,7 +1,6 @@
 .promo {
     display: flex;
     flex-direction: column;
-    padding: 89px 0px 233px 0px;
 }
 
 .promo__title {

@@ -2,6 +2,13 @@
     margin-top: auto;
 }
 
+.footer__wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 1142px;
+}
+
 .footer__line {
     background: #FFFFFF;
     mix-blend-mode: normal;

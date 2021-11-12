@@ -19,3 +19,27 @@
 .button:hover {
     background-color: #FF3D00;
 }
+
+.feed-submit-btn {
+    margin: 33px 0px 0px 0px;
+    display: block;
+    color: #FFFFFF;
+    background:  #FF5500;
+    text-decoration: none;
+}
+
+.feed-submit-btn:hover {
+    background: #FF3D00;
+}
+
+.feed-clear-btn {
+    margin: 33px 13px 0px 0px;
+    display: block;
+    color: #FFFFFF;
+    background: #8E8E8E;
+    text-decoration: none;
+}
+
+.feed-clear-btn:hover {
+    background: #2B2B2B;
+}

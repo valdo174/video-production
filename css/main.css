@@ -21,8 +21,18 @@ body {
     background: url("../images/hero.png") center top no-repeat, url("../images/bottom-pic.png") bottom center no-repeat;
 }
 
+.header__wrapper {
+    margin-top: 23px;
+    margin-left: 37px;
+    margin-bottom: 58px;
+}
+
+.promo__wrapper {
+    margin: 89px 0px 233px 0px;
+}
+
 .products {
-    padding: 0px 0px 180px;
+    margin: 0px 0px 180px;
 }
 
 .products__list {
@@ -35,7 +45,7 @@ body {
 }
 
 .news {
-    padding-bottom: 150px;
+    margin-bottom: 150px;
 }
 
 .news__list {
@@ -50,4 +60,8 @@ body {
     margin-right: 2%;
     position: relative;
     max-width: calc(100% / 2 - 25px);
+}
+
+.pagination__wrapper {
+    
 }

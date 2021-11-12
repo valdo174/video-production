@@ -3,18 +3,17 @@
     font-weight: bold;
     font-size: 48px;
     color: #1A1B1E;
+    margin-bottom: 82px;
 }
 
 .partners__list {
     display: flex;
+    flex-direction: row;
     flex-wrap: wrap;
-    align-items: center;
-    justify-content: space-around;
 }
 
 .partners__item {
     flex: 1;
-    align-self: center;
     padding-right: 100px;
-    padding-bottom: 20px;
+    padding-bottom: 70px;
 }
