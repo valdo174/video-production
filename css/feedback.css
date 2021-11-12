@@ -12,7 +12,7 @@
 @import url(./blocks/footer.css);
 
 .header__container {
-    background: url(/images/top-line.png) top center no-repeat;
+    background: url(.././images/top-line.png) top center no-repeat;
     background-size: cover;
     margin-bottom: 94px;
 }
@@ -61,7 +61,7 @@
 }
 
 .review__user::after{
-    content: url(/images/vk-blue.png);
+    content: url(.././images/vk-blue.png);
     height: 29px ;
     margin-left: 10px;
 }
@@ -113,7 +113,7 @@
     display: flex;
     justify-content: space-around;
     align-items: center;
-    background: url(/images/party.png) right no-repeat;
+    background: url(.././images/party.png) right no-repeat;
     height: 363px;
     text-align: left;
 }
