@@ -35,7 +35,7 @@
     padding: 16px 20px;
     margin-top: 9px;
     position: absolute;
-    right:0;
+    right: 310px;
     opacity: 0;
 }
 
@@ -49,4 +49,5 @@
     border-bottom-width: 9px;
     position: absolute;
     bottom: 100%;
+    right: 40px;
 }
