@@ -21,3 +21,32 @@
     color: #FF3D00;
     text-align: right;
 }
+
+.contacts:hover .contact__drop{ 
+    transition: 0.5s;
+    opacity:0.8;
+}
+
+.contact__drop{
+    width: 180px;
+    opacity: 0.8;
+    background-color: #CDD1D2;
+    border-radius: 4px;
+    padding: 16px 20px;
+    margin-top: 9px;
+    position: absolute;
+    right:0;
+    opacity: 0;
+}
+
+.contact__drop:after{
+    content: '';
+    display: block;
+    width: 0;
+    height: 0;
+    border: 11px solid transparent;
+    border-bottom-color: #CDD1D2;
+    border-bottom-width: 9px;
+    position: absolute;
+    bottom: 100%;
+}
